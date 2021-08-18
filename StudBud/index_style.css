@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gap{
+    height: 50px;
+}
+
+/***********Home Page***************/
+
+/*background*/
+.header-img{
+    min-height: 70vh;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*navbar*/
+nav img{
+    width: 250px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+nav a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #16394B;
+}
+
+
+/*banner-text*/
+.info{
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #16394B;
+}
+
+.info h1{
+    font-size: 60px;
+}
+
+.info h3{
+    font-size: 40px;
+}
+
+.info p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+}
+
+/*registration-btn*/
+.reg-buuton{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid ghostwhite;
+    color: ghostwhite;
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-size: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.reg-buuton:hover{
+    border: 1px solid #16394B;
+    color: ghostwhite;
+    background: #16394B;
+    transition: 1s;
+}
+
+/*about-instructor*/
+.instructor{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #16394B;
+
+}
+
+.instructor h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.instructor p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+
+.row h3{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/*all-features*/
+.features{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #16394B;
+}
+
+.features h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.features p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-col img{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.img-col img:hover{
+    box-shadow: 0 0 40px 0px lightslategray;
+}
+
+
+#featues-para{
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*review-sec*/
+.review{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #16394B;
+}
+
+.review h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.review p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.review-col{
+    flex-basis: 45%;
+    background: rgb(231, 235, 240);
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    
+}
+
+.review-col:hover{
+    box-shadow: 0 0 20px 0px lightslategray;
+}
+
+
+/*footer*/
+
+footer{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-weight: 400;
+  background-color: #16394B;
+}
+
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.content li{
+  margin: 6px 0;
+  list-style: none;
+}
+.content  li a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease
+}
+.content li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
